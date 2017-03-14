@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "administratorLogin": {
+            "value": "sqladmin"
+        },
+        "administratorLoginPassword": {
+            "value": "Password@123"
+        },
+      "collation": {
+        "value": "SQL_Latin1_General_CP1_CI_AS"
+      },
+        "databaseName": {
+            "value": "IcePaySQLDB"
+        },
+        "edition": {
+            "value": "Basic"
+        },
+        "location": {
+            "value": "ukwest"
+        },
+        "maxSizeBytes": {
+            "value": "2147483648"
+        },
+        "requestedServiceObjectiveId": {
+            "value": "dd6d99bb-f193-4ec1-86f2-43d3bccbc49c"
+        },
+        "sampleName": {
+            "value": ""
+        },
+        "serverName": {
+            "value": "icepaylogicalserver"
+        },
+        "version": {
+            "value": "12.0"
+        }
+    }
+}
